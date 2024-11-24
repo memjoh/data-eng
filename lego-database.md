@@ -18,8 +18,8 @@ PostgreSQL  |  pgAdmin  |  TablePlus  |  Hex  |  Tableau
 
 ## 2 • Create Schemas and Tables
 
-[Schema Scripts]  
-[Schema Diagram (ERD)]
+[Schema Scripts](table_creation.sql)  
+[Schema Diagram (ERD)](lego_er_diagram.png)
 
 ## 3 • Data Analysis
 
