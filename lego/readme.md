@@ -30,6 +30,9 @@ Questions asked:
 * How many sets contain 'unique pieces' (pieces not used in any other set) and how has this changed over time?
 * Are these 'unique pieces' more likely to be 'odd' colors?
 * Have the colors and variety of colors changed over time?
-<br />  
+<br />
+
+[View Script](lego/view_creation.sql)  
+<br />
 
 ## 4 • Data Visualization
