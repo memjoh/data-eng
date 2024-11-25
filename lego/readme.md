@@ -32,7 +32,7 @@ Questions asked:
 * Have the colors and variety of colors changed over time?
 <br />
 
-[View Script](lego/view_creation.sql)  
+[View Creation Script](view_creation.sql)  
 <br />
 
 ## 4 • Data Visualization
