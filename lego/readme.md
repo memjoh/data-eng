@@ -1,6 +1,6 @@
 # Lego Database Creation for Analysis
 
-work with [data from Lego](https://www.kaggle.com/datasets/rtatman/lego-database) containing *individual pieces > by color > by set/kit > grouped into larger themes* over time since 1950
+[raw data from Lego](https://www.kaggle.com/datasets/rtatman/lego-database) containing *individual pieces > by color > by set/kit > grouped into larger themes* over time since 1950
 * created a database, schemas and tables
 * explored data and created views and datasets for analysis
 * created explanatory visualizations
