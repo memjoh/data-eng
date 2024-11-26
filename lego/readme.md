@@ -1,15 +1,19 @@
 # Lego Database Creation for Analysis
 
-[raw data from Lego](https://www.kaggle.com/datasets/rtatman/lego-database) containing *individual pieces > by color > by set/kit > grouped into larger themes* over time since 1950
-* created a database, schemas and tables
-* explored data and created views and datasets for analysis
-* created explanatory visualizations
+[raw data from Lego](https://www.kaggle.com/datasets/rtatman/lego-database)  
+_data over time since 1950 : inventory parts > by color > parts laddering up to sets > sets laddering up to themes_  
+1. created a database, schemas and tables
+2. explored data and created views and datasets for analysis
+3. created explanatory visualizations
 
+   
 ### Tech Stack Used
 **PostgreSQL &nbsp;&nbsp; | &nbsp;&nbsp; pgAdmin &nbsp;&nbsp; | &nbsp;&nbsp; TablePlus &nbsp;&nbsp; | &nbsp;&nbsp; Hex &nbsp;&nbsp; | &nbsp;&nbsp; Tableau**  
 <br />  
+![image](https://github.com/user-attachments/assets/32dfa55c-709c-4f49-82d3-b5f19b5f683a)
+<br />   
 
-## 1 • Set Up Database
+## 1a • Set Up Database
 * Installed [PostgreSQL](https://www.postgresql.org/download/)
 * Created new database and staging schema
 * Imported [Initial Raw Data](https://www.kaggle.com/datasets/rtatman/lego-database) using SQL script to build tables
@@ -20,12 +24,12 @@
 [Local PostgreSQL Setup](https://www.youtube.com/watch?v=QPE5_p9PRsc)  
 <br />    
 
-## 2 • Create Schemas and Tables
+## 1b • Create Schemas and Tables
 [Schema Scripts](table_creation.sql)  
 [Schema Diagram (ERD)](lego_er_diagram.png)  
 <br />    
 
-## 3 • Data Analysis
+## 2 • Data Analysis
 Questions asked:
 * How many sets contain 'unique pieces' (pieces not used in any other set) and how has this changed over time?
 * Are these 'unique pieces' more likely to be 'odd' colors?
@@ -35,4 +39,4 @@ Questions asked:
 [View Creation Script](view_creation.sql)  
 <br />
 
-## 4 • Data Visualization
+## 3 • Data Visualization
